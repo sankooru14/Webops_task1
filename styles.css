@@ -31,25 +31,31 @@
   text-decoration: none;
 }
 .a {
-  display: inline;
-  margin: auto 375px auto auto;
+  display: inline-block;
+  /* margin: auto 375px auto auto; */
+  width: 30%;
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
 
 }
 .b {
   display:inline-block;
-  margin-left: 400px;
+  /* margin-left: 400px; */
+  width: 30%;
+  text-align: right;
 
 }
-.l {
+#l {
   /* display: inline-block; */
   display: inline-block;
 
 
 
 }
-.l1 {
-  /* display: inline-block; */
+#l1 {
   display: inline-block;
+  /* display: inline-block; */
 
   color: blue;
 }
